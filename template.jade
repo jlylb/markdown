@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+html
+    head
+        title #{title}
+        link(href='./lib/bootstrap/css/bootstrap.min.css',rel='stylesheet',type='text/css')
+        link(href='./lib/css/toc.css',rel='stylesheet',type='text/css')
+        script(src='./lib/js/jquery.min.js')
+        script(src='./lib/bootstrap/js/bootstrap.js')
+    body
+        div.container
+            div.row
+                div.col-lg-2
+                    div(id='myscrollspy')
+                div.col-lg-10
+                    | !{markdoc}
+        script(src='./lib/js/toc.js')

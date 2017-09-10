@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "gulp-markdown": "^1.2.0",
+    "jade": "^1.11.0",
+    "gulp-copy": "^1.0.1",
+    "bootstrap": "^3.3.7",
+    "through2": "^2.0.3",
+    "gulp-util": "^3.0.8",
+    "jquery": "^3.2.1"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
